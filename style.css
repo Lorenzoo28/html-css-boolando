@@ -22,7 +22,7 @@ img{
         min-height: 120px;
     }
     .row{
-        background-color: rgb(135, 135, 231);
+        background-color: rgb(66, 66, 107);
     }
     [class^="col"]{
         background-color: rgb(211, 112, 112);
@@ -30,12 +30,16 @@ img{
 }
 
 .container{
+    padding: 1rem;
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .row{
+    background-color: transparent;
+    padding: 2rem;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -124,8 +128,9 @@ header{
 }
 
 .card{
+    padding: 1rem;
     min-height: 300px;
-    background-color: gray;
+    background-color: transparent;
 
     .card-top{
         position: relative;
