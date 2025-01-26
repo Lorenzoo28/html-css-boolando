@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+    --bool-primary: #ff6900;
+    --bool-dark: #1a1a1a;
+    --bool-light: #ffffff;
+    --bool-danger: #ff0000;
+    --bool-success: #018000;
+}
+
+.debug{
+    .container{
+        background-color: rgb(236, 203, 140);
+        min-height: 120px;
+    }
+    .row{
+        background-color: rgb(135, 135, 231);
+    }
+    [class^="col"]{
+        background-color: rgb(211, 112, 112);
+    }
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: auto;
+    flex-basis: auto;
+}
+
+.col-1{
+    width: calc(100% / 12 * 1);
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-9{
+    width: calc(100% / 12 * 9);
+}
+
+.col-10{
+    width: calc(100% / 12 * 10);
+}
+
+.col-11{
+    width: calc(100% / 12 * 11);
+}
+
+.col-12{
+    width: 100%;
+}
