@@ -88,3 +88,28 @@
 .col-12{
     width: 100%;
 }
+
+
+header{
+    background-color: var(--bool-primary);
+    padding: 0.5rem 0;
+    box-shadow: 0 0 10px rgb(178, 178, 178);
+    nav{
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        ul.left_menu,
+        ul.right_menu{
+            list-style: none;
+            display: flex;
+
+            a{
+                color:var(--bool-light);
+                text-decoration: none;
+                padding: 0.5rem;
+            }
+        }
+    }
+
+}
